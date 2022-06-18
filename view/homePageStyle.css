@@ -162,24 +162,26 @@ a {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: start;
-  margin: auto;
+  margin-top: 2%;
   height: 70vh;
   overflow-y: scroll;
 }
 
 .projectCard {
+  margin: 0.8em;
   padding: 0.2rem 1.2rem 1.2rem 1.2rem;
-  width: 22rem;
+  width: 28rem;
   background-color: rgba(31, 31, 31, 0.63);
   border-radius: 0.4rem;
 }
 
 .title {
-  font-size: 1rem;
+  margin: 0.4rem;
+  font-size: 1.4rem;
 }
 
 .imgContainer {
-  width: 25%;
+  width: 16%;
   margin: 1.2rem;
 }
 
@@ -201,11 +203,15 @@ a {
   display: flex;
 }
 
+.typeOfProject, .techTitle {
+  font-size: 0.9rem;
+}
+
 .buttonsContainer button {
   border-radius: 1.2em;
   padding: 0.6rem 1.2rem;
   cursor: pointer;
-  margin: 0.6rem;
+  margin: 0.6rem 0.6rem 0 0.6rem;
   font-size: 0.8rem;
 }
 
@@ -213,6 +219,9 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -266,6 +275,13 @@ a {
 @media screen and (max-width: 725px) {
   .scrollContainer {
     right: 1%;
+  }
+  .projectsContaier {
+    height: 70vh;
+    margin-top: 2rem;
+  }
+  .projectCard {
+    width: 23rem;
   }
 }
 /*# sourceMappingURL=homePageStyle.css.map */
