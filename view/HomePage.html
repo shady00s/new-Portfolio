@@ -1,195 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- font awsome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <title>Shady safwat kamal</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Shady safwat kamal</title>
+    <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
-<!-- cdn -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0-beta1/css/bootstrap.min.css" integrity="sha512-o/MhoRPVLExxZjCFVBsm17Pkztkzmh7Dp8k7/3JrtNCHh0AQ489kwpfA3dPSHzKDe8YCuEhxXq3Y71eb/o6amg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0-beta1/js/bootstrap.min.js" integrity="sha512-Hqe3s+yLpqaBbXM6VA0cnj/T56ii5YjNrMT9v+us11Q81L0wzUG0jEMNECtugqNu2Uq5MSttCg0p4KK0kCPVaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0-beta1/css/bootstrap-grid.min.css" integrity="sha512-QWjMsIpO5eW4+c4ASTEaZ4+eZNZ4YTtSDiu167Rq1Eqw//WlO+rXo4OvZMpyW/ykbN5LFeXmN6N416OzmWo7fA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <!-- cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0-beta1/css/bootstrap.min.css"
+      integrity="sha512-o/MhoRPVLExxZjCFVBsm17Pkztkzmh7Dp8k7/3JrtNCHh0AQ489kwpfA3dPSHzKDe8YCuEhxXq3Y71eb/o6amg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0-beta1/js/bootstrap.min.js"
+      integrity="sha512-Hqe3s+yLpqaBbXM6VA0cnj/T56ii5YjNrMT9v+us11Q81L0wzUG0jEMNECtugqNu2Uq5MSttCg0p4KK0kCPVaQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0-beta1/css/bootstrap-grid.min.css"
+      integrity="sha512-QWjMsIpO5eW4+c4ASTEaZ4+eZNZ4YTtSDiu167Rq1Eqw//WlO+rXo4OvZMpyW/ykbN5LFeXmN6N416OzmWo7fA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0-beta1/css/bootstrap-grid.rtl.min.css" integrity="sha512-s6viiiLL/vlYgbXtO8pGrr42kjWwnVzT4/JNSIp2SaWujb2OfoevjdAqtNwkSwYg4KMzcLbHRIpHSMvXkw/d/w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-<link rel="stylesheet" href="./homePageStyle.css">
-
-</head>
-<body>
+    <link rel="stylesheet" href="./homePageStyle.css" />
+  </head>
+  <body>
     <!-- navbar using bootstrap  on desktop view-->
     <nav class="navbar m-2 d-flex justify-content-end d-none d-md-flex">
-        <ul class=" d-flex  ">
-            <li class="nav-item" >
-                <a href=".mainPage " class="nav-link ">Home</a> 
-            </li>
-            <li class="nav-item">
-                <a href="" class="nav-link ">About me</a> 
-            </li>
-            <li class="nav-item">
-                <a href="" class="nav-link ">Projects</a> 
-            </li>
-            <li>
-                <div class="hireMe">
-                    <a href="" class="nav-link ">Hire me!</a> 
-                </div>
-                
-            </li>
-        </ul>
+      <ul class=" d-flex  "> 
+        <li class=" nav-item" >
+          <a  id="navBtn" href="" class="navigation1 nav-link ">Home</a>
+        </li>
+        <li class=" nav-item"">
+          <a  id="navBtn"href="" class="navigation2 nav-link ">About me</a>
+        </li>
+        <li class=" nav-item" >
+          <a id="navBtn" href="" class="navigation3 nav-link ">Projects</a>
+        </li>
+        <li class="nav-item" >
+          <div class="hireMe" >
+            <button class="nav-link btn border-0"  style="background-color: transparent;">Hire me!</button>
+        </div>
+        
+        </li>
+      </ul>
     </nav>
 
+ 
     <!-- navbar using bootstrap on mobile/ tablet view -->
 
     <div class="collapse" id="navbarToggleExternalContent">
-        <div class=" p-4">
-            <ul class=" d-flex  flex-column align-content-lg-stretch">
-                <li class="nav-item m-1" >
-                    <a href=".mainPage " class="nav-link ">Home</a> 
-                </li>
-                <li class="nav-item  m-1">
-                    <a href="" class="nav-link ">About me</a> 
-                </li>
-                <li class="nav-item  m-1">
-                    <a href="" class="nav-link ">Projects</a> 
-                </li>
-                <li class="nav-item  m-1 w-100 ">
-                    <div class="w-100 text-center m-2" style="background-color: rgb(107,76 ,229 ); border-radius: 0.3rem;">
-                        <a href="" class="nav-link ">Hire me!</a> 
-                    </div>
-                    
-                </li>
-            </ul>
-        </div>
+      <div class=" p-4">
+        <ul class=" d-flex  flex-column align-content-lg-stretch">
+          <li class=" nav-item m-1">
+            <a href=".mainPage " class="navigation1 nav-link ">Home</a>
+          </li>
+          <li class=" nav-item  m-1">
+            <a id="navBtn" href="" class="navigation2 nav-link ">About me</a>
+          </li>
+          <li  class=" nav-item  m-1">
+            <a id="navBtn" href="" class="navigation3 nav-link ">Projects</a>
+          </li>
+          <li id="navBtn" class=" nav-item  m-1 w-100 ">
+            <div
+              class="w-100 text-center m-2"
+              style="background-color: rgb(107,76 ,229 ); border-radius: 0.3rem;"
+            >
+              <a href="" class="nav-link ">Hire me!</a>
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
     <nav class="navbar navbar-dark m-2  d-flex d-md-none">
-            <div class="container-fluid d-flex justify-content-end">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span><i class="fa-solid fa-bars"></i></span>
-              </button>
-            </div>
+      <div class="container-fluid d-flex justify-content-end">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarToggleExternalContent"
+          aria-controls="navbarToggleExternalContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span><i class="fa-solid fa-bars"></i></span>
+        </button>
+      </div>
     </nav>
 
-<!-- Home section -->
-
-
+    <!-- Home section -->
 
     <section class="mainPage">
-        <div class="nameContainer">
-            <h1 class="title">SHADY SAFWAT</h1>
-            <h3 class="subTitle">I'm a</h3>
-            <h1 class="job">SOFTWARE ENGINEER</h1>
-        </div>
-        <div class="contentP">
-            <p>Hello , i’m 25 Years old  software developer that have a great potential in learning and building  great applications and websites. </p>
-        </div>
+      <div class="nameContainer">
+        <h1 class="Maintitle">SHADY SAFWAT</h1>
+        <h3 class="subTitle">I'm a</h3>
+        <h1 class="job">SOFTWARE ENGINEER</h1>
+      </div>
+      <div class="contentP">
+        <p>
+          Hello , i’m 25 Years old software developer that have a great
+          potential in learning and building great applications and websites.
+        </p>
+      </div>
 
-        <div class="navigationBtn">
-            <button> <i class="fa-solid fa-chevron-down" style="color: white;"></i>    </button>
-        </div>
+      <div class="navigationBtn">
+        <button id="navBtn" class="navigation2 x">
+          <i class="fa-solid fa-chevron-down" style="color: white;"></i>
+        </button>
+      </div>
     </section>
 
-<!-- projects section -->
+    <!-- About me section -->
+    <section class="aboutMePage">
+      <h2>About me</h2>
+    </section>
+    <!-- projects section -->
     <section class="projectsPage">
-        <h2>Projects</h2>
-<!-- Project card contians summery about project -->
-        <div class="projectsContaier">
+      <h2>Projects</h2>
+      <!-- Project card contians summery about project -->
+      <div class="projectsContaier">
+        <div class="projectCard">
+          <h4 class="title">Todo</h4>
+          <!-- project icon and technologies used  -->
+          <div class="picAndTechContainer">
+            <div class="imgContainer">
+              <img src="../assets/todo-icon.png" class="projectImage" alt="" />
+            </div>
+            <div class="langContainer">
+              <h5 class="techTitle">Technologies</h5>
+            </div>
+          </div>
 
-            <div class="projectCard">
-                <h4 class="title">Todo</h4>
-                <!-- project icon and technologies used  -->
-                <div class="picAndTechContainer">
-                    <div class="imgContainer">
-                        <img src="../assets/todo-icon.png" class="projectImage"alt="">
-                    </div>
-                    <div class="langContainer">
-                        <h5 class="techTitle">Technologies</h5>
-    
-                    </div>
-                </div>
-    
-                <h4 class="typeOfProject">Mobile Application</h4>
-                <div class="buttonsContainer"> 
-                    <button class="projectBtn"> View project</button>
-                    <button class="downloadBtn">Download App</button>
-                </div>
-                <!--  -->
-            </div>
-            <div class="projectCard">
-                <h4 class="title">Todo</h4>
-                <!-- project icon and technologies used  -->
-                <div class="picAndTechContainer">
-                    <div class="imgContainer">
-                        <img src="../assets/todo-icon.png" class="projectImage"alt="">
-                    </div>
-                    <div class="langContainer">
-                        <h5 class="techTitle">Technologies</h5>
-    
-                    </div>
-                </div>
-    
-                <h4 class="typeOfProject">Mobile Application</h4>
-                <div class="buttonsContainer"> 
-                    <button class="projectBtn"> View project</button>
-                    <button class="downloadBtn">Download App</button>
-                </div>
-                <!--  -->
-            </div>
-            <div class="projectCard">
-                <h4 class="title">Todo</h4>
-                <!-- project icon and technologies used  -->
-                <div class="picAndTechContainer">
-                    <div class="imgContainer">
-                        <img src="../assets/todo-icon.png" class="projectImage"alt="">
-                    </div>
-                    <div class="langContainer">
-                        <h5 class="techTitle">Technologies</h5>
-    
-                    </div>
-                </div>
-    
-                <h4 class="typeOfProject">Mobile Application</h4>
-                <div class="buttonsContainer"> 
-                    <button class="projectBtn"> View project</button>
-                    <button class="downloadBtn">Download App</button>
-                </div>
-                <!--  -->
-            </div>
-            <div class="projectCard">
-                <h4 class="title">Todo</h4>
-                <!-- project icon and technologies used  -->
-                <div class="picAndTechContainer">
-                    <div class="imgContainer">
-                        <img src="../assets/todo-icon.png" class="projectImage"alt="">
-                    </div>
-                    <div class="langContainer">
-                        <h5 class="techTitle">Technologies</h5>
-    
-                    </div>
-                </div>
-    
-                <h4 class="typeOfProject">Mobile Application</h4>
-                <div class="buttonsContainer"> 
-                    <button class="projectBtn"> View project</button>
-                    <button class="downloadBtn">Download App</button>
-                </div>
-                <!--  -->
-            </div>
+          <h4 class="typeOfProject">Mobile Application</h4>
+          <div class="buttonsContainer">
+            <button class= projectBtn">View project</button>
+            <button class="downloadBtn">Download App</button>
+          </div>
+          <!--  -->
         </div>
+        <div class="projectCard">
+          <h4 class="title">Todo</h4>
+          <!-- project icon and technologies used  -->
+          <div class="picAndTechContainer">
+            <div class="imgContainer">
+              <img src="../assets/todo-icon.png" class="projectImage" alt="" />
+            </div>
+            <div class="langContainer">
+              <h5 class="techTitle">Technologies</h5>
+            </div>
+          </div>
 
-
-<!-- scroll indecator -->
-<div class="scrollContainer">
-    <div class="activeBall currentActiveBall"></div>
-    <div class="activeBall"></div>
-    
-</div>
-<!-- navigation buttons  -->
-        <div class="navigationBtn">
-            <button> <i class="fa-solid fa-chevron-up" style="color: white;"></i>    </button>
+          <h4 class="typeOfProject">Mobile Application</h4>
+          <div class="buttonsContainer">
+            <button class="projectBtn">View project</button>
+            <button class="downloadBtn">Download App</button>
+          </div>
+          <!--  -->
         </div>
-        
+        <div class="projectCard">
+          <h4 class="title">Todo</h4>
+          <!-- project icon and technologies used  -->
+          <div class="picAndTechContainer">
+            <div class="imgContainer">
+              <img src="../assets/todo-icon.png" class="projectImage" alt="" />
+            </div>
+            <div class="langContainer">
+              <h5 class="techTitle">Technologies</h5>
+            </div>
+          </div>
+
+          <h4 class="typeOfProject">Mobile Application</h4>
+          <div class="buttonsContainer">
+            <button class="projectBtn">View project</button>
+            <button class="downloadBtn">Download App</button>
+          </div>
+          <!--  -->
+        </div>
+        <div class="projectCard">
+          <h4 class="title">Todo</h4>
+          <!-- project icon and technologies used  -->
+          <div class="picAndTechContainer">
+            <div class="imgContainer">
+              <img src="../assets/todo-icon.png" class="projectImage" alt="" />
+            </div>
+            <div class="langContainer">
+              <h5 class="techTitle">Technologies</h5>
+            </div>
+          </div>
+
+          <h4 class="typeOfProject">Mobile Application</h4>
+          <div class="buttonsContainer">
+            <button class="projectBtn">View project</button>
+            <button class="downloadBtn">Download App</button>
+          </div>
+          <!--  -->
+        </div>
+      </div>
+
+      <!-- scroll indecator -->
+      <div class="scrollContainer">
+        <div class="activeBall currentActiveBall"></div>
+        <div class="activeBall"></div>
+      </div>
+      <!-- navigation buttons  -->
+      <div class="navigationBtn">
+        <button id="navBtn" class="navigation2 ">
+          <i class="fa-solid fa-chevron-up" style="color: white;"></i>
+        </button>
+      </div>
     </section>
-    <script src="../control/mouseCusrorControl.js"></script>
-</body>
+    <script>var exports = {};</script>
+    <script type="module" src="../control/main.js" ></script>
+  </body>
 </html>
