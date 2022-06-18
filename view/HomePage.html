@@ -14,9 +14,12 @@
     />
     <title>Shady safwat kamal</title>
     <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -44,48 +47,57 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0-beta1/css/bootstrap-grid.rtl.min.css" integrity="sha512-s6viiiLL/vlYgbXtO8pGrr42kjWwnVzT4/JNSIp2SaWujb2OfoevjdAqtNwkSwYg4KMzcLbHRIpHSMvXkw/d/w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0-beta1/css/bootstrap-grid.rtl.min.css"
+      integrity="sha512-s6viiiLL/vlYgbXtO8pGrr42kjWwnVzT4/JNSIp2SaWujb2OfoevjdAqtNwkSwYg4KMzcLbHRIpHSMvXkw/d/w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <link rel="stylesheet" href="./homePageStyle.css" />
   </head>
   <body>
     <!-- navbar using bootstrap  on desktop view-->
     <nav class="navbar m-2 d-flex justify-content-end d-none d-md-flex">
-      <ul class=" d-flex  "> 
-        <li class=" nav-item" >
-          <a  id="navBtn" href="" class="navigation1 nav-link ">Home</a>
+      <ul class=" d-flex  ">
+        <li class=" nav-item">
+          <a id="navBtn" href="" class="navigation1 nav-link ">Home</a>
         </li>
-        <li class=" nav-item"">
-          <a  id="navBtn"href="" class="navigation2 nav-link ">About me</a>
+        <li class=" nav-item">
+          <a id="navBtn" href="" class="navigation2 nav-link ">About me</a>
         </li>
-        <li class=" nav-item" >
+        <li class=" nav-item">
           <a id="navBtn" href="" class="navigation3 nav-link ">Projects</a>
         </li>
-        <li class="nav-item" >
-          <div class="hireMe" >
-            <button class="nav-link btn border-0"  style="background-color: transparent;">Hire me!</button>
-        </div>
-        
+        <li class="nav-item">
+          <div class="hireMe">
+            <button
+              class="nav-link btn border-0"
+              style="background-color: transparent;"
+            >
+              Hire me!
+            </button>
+          </div>
         </li>
       </ul>
     </nav>
 
- 
     <!-- navbar using bootstrap on mobile/ tablet view -->
 
-    <div class="collapse" id="navbarToggleExternalContent">
+    <div class="collapse  d-md-none" id="navbarToggleExternalContent">
       <div class=" p-4">
         <ul class=" d-flex  flex-column align-content-lg-stretch">
           <li class=" nav-item m-1">
-            <a href=".mainPage " class="navigation1 nav-link ">Home</a>
+            <a id="navBtn" href="" class="navigation1 nav-link ">Home</a>
           </li>
           <li class=" nav-item  m-1">
             <a id="navBtn" href="" class="navigation2 nav-link ">About me</a>
           </li>
-          <li  class=" nav-item  m-1">
+          <li class=" nav-item  m-1">
             <a id="navBtn" href="" class="navigation3 nav-link ">Projects</a>
           </li>
-          <li id="navBtn" class=" nav-item  m-1 w-100 ">
+          <li class=" nav-item  m-1 w-100 ">
             <div
               class="w-100 text-center m-2"
               style="background-color: rgb(107,76 ,229 ); border-radius: 0.3rem;"
@@ -136,7 +148,89 @@
 
     <!-- About me section -->
     <section class="aboutMePage">
-      <h2>About me</h2>
+      <div class="aboutMeContainer">
+        <h2>About me</h2>
+
+        <div class="educationSection">
+          <h4>Education</h4>
+
+          <ul class="EducationClass">
+            <li>
+              <span
+                >ITI Frontend and cross-platform mobile development (Intensive
+                code camp)</span
+              >
+            </li>
+            <li>
+              <span>Database Fundamentas (Maharatech course)</span>
+            </li>
+            <li>
+              <span>HTML5 and Javascript (Maharatech course)</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="frams">
+          <div class="languageSection">
+            <h4>Programming languages</h4>
+  
+            <div class="languageContainer">
+              <img
+                src="../assets/csharp.png"
+                style="width: 40px; height: 40px;"
+                alt=""
+              />
+  
+              <span>C#</span>
+            </div>
+            <div class="languageContainer">
+              <img src="../assets/dart.png" style="width: 55px;" alt="" />
+  
+              <span>Dart</span>
+            </div>
+            <div class="languageContainer">
+              <img
+                src="../assets/js.png"
+                style="width: 42px; height: 45px; "
+                alt=""
+              />
+              <span>Javascript</span>
+            </div>
+          </div>
+  
+          <div class="frameWorkSection">
+            <h4>Frameworks</h4>
+            <div class="languageContainer">
+              <img
+                src="../assets/fl.png"
+                style="width: 40px; height: 40px;"
+                alt=""
+              />
+  
+              <span>Flutter</span>
+            </div>
+            <div class="languageContainer">
+              <img
+                src="../assets/ang.png"
+                style="width: 40px; height: 40px;"
+                alt=""
+              />
+  
+              <span>Angular</span>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <!-- navigation buttons  -->
+      <div class="navigationBtn">
+        <button id="navBtn" class="navigation1 ">
+          <i class="fa-solid fa-chevron-up" style="color: white;"></i>
+        </button>
+        <button id="navBtn" class="navigation3 ">
+          <i class="fa-solid fa-chevron-down" style="color: white;"></i>
+        </button>
+      </div>
     </section>
     <!-- projects section -->
     <section class="projectsPage">
@@ -157,7 +251,7 @@
 
           <h4 class="typeOfProject">Mobile Application</h4>
           <div class="buttonsContainer">
-            <button class= projectBtn">View project</button>
+            <button class="projectBtn">View project</button>
             <button class="downloadBtn">Download App</button>
           </div>
           <!--  -->
@@ -233,7 +327,7 @@
         </button>
       </div>
     </section>
-    <script>var exports = {};</script>
-    <script type="module" src="../control/main.js" ></script>
+
+    <script type="module" src="../control/main.js"></script>
   </body>
 </html>

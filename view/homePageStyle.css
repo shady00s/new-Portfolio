@@ -317,4 +317,115 @@ a {
     width: 23rem;
   }
 }
+
+.aboutMeContainer {
+  width: 85vw;
+  margin: auto;
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: self-start;
+      -ms-flex-align: self-start;
+          align-items: self-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.educationSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.languageSection, .frameWorkSection {
+  width: 25vw;
+}
+
+.languageContainer {
+  width: 2.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  overflow: hidden;
+  position: relative;
+  margin: 2rem;
+}
+
+.languageContainer:hover {
+  width: 100%;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+.languageContainer::before {
+  content: "";
+  text-align: center;
+  color: #ffffffe6;
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 100%;
+  -webkit-transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+}
+
+.languageContainer:hover::before {
+  z-index: -1;
+  position: absolute;
+  background-color: #19ff476f;
+  height: 100%;
+  width: 70%;
+  border-radius: 0.2rem;
+  -webkit-transition: width 0.4s ease;
+  transition: width 0.4s ease;
+}
+
+.EducationClass {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.EducationClass li {
+  margin: 2rem;
+}
+
+span {
+  overflow: hidden;
+  margin: 1rem;
+}
+
+.frams {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
 /*# sourceMappingURL=homePageStyle.css.map */
