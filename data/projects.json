@@ -1,0 +1,30 @@
+[
+    {
+        "projectName":"Todo App",
+        "imgPath":"../assets/todo-icon.png",
+        "discription":"A simple reminder  app that remind the user with the important schedules and meetings with simple UI and it works offline and online without ads.",
+        "lagUsed":"Flutter, MongoDB "
+
+    },
+    {
+        "projectName":"Todo App",
+        "imgPath":"../assets/todo-icon.png",
+        "discription":"A simple reminder  app that remind the user with the important schedules and meetings with simple UI and it works offline and online without ads.",
+        "lagUsed":"Flutter, MongoDB "
+
+    },
+    {
+        "projectName":"Todo App",
+        "imgPath":"../assets/todo-icon.png",
+        "discription":"A simple reminder  app that remind the user with the important schedules and meetings with simple UI and it works offline and online without ads.",
+        "lagUsed":"Flutter, MongoDB "
+
+    },
+    {
+        "projectName":"Todo App",
+        "imgPath":"../assets/todo-icon.png",
+        "discription":"A simple reminder  app that remind the user with the important schedules and meetings with simple UI and it works offline and online without ads.",
+        "lagUsed":"Flutter, MongoDB "
+
+    }
+]

@@ -4,31 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./homePageStyle.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Shady safwat kamal</title>
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <title>Shady safwat kamal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+<!-- cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0-beta1/css/bootstrap.min.css" integrity="sha512-o/MhoRPVLExxZjCFVBsm17Pkztkzmh7Dp8k7/3JrtNCHh0AQ489kwpfA3dPSHzKDe8YCuEhxXq3Y71eb/o6amg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0-beta1/js/bootstrap.min.js" integrity="sha512-Hqe3s+yLpqaBbXM6VA0cnj/T56ii5YjNrMT9v+us11Q81L0wzUG0jEMNECtugqNu2Uq5MSttCg0p4KK0kCPVaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0-beta1/css/bootstrap-grid.min.css" integrity="sha512-QWjMsIpO5eW4+c4ASTEaZ4+eZNZ4YTtSDiu167Rq1Eqw//WlO+rXo4OvZMpyW/ykbN5LFeXmN6N416OzmWo7fA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="./homePageStyle.css">
+
 </head>
 <body>
-    <nav>
-        <ul>
-            <li>
-                <a href="#  ">Home</a> 
+    <!-- navbar using bootstrap  on desktop view-->
+    <nav class="navbar m-2 d-flex justify-content-end d-none d-md-flex">
+        <ul class=" d-flex  ">
+            <li class="nav-item" >
+                <a href=".mainPage " class="nav-link ">Home</a> 
             </li>
-            <li>
-                <a href="">About me</a> 
+            <li class="nav-item">
+                <a href="" class="nav-link ">About me</a> 
             </li>
-            <li>
-                <a href="">Projects</a> 
+            <li class="nav-item">
+                <a href="" class="nav-link ">Projects</a> 
             </li>
             <li>
                 <div class="hireMe">
-                    <a href="">Hire me!</a> 
+                    <a href="" class="nav-link ">Hire me!</a> 
                 </div>
                 
             </li>
         </ul>
     </nav>
+
+    <!-- navbar using bootstrap on mobile/ tablet view -->
+
+    <div class="collapse" id="navbarToggleExternalContent">
+        <div class=" p-4">
+            <ul class=" d-flex  flex-column align-content-lg-stretch">
+                <li class="nav-item m-1" >
+                    <a href=".mainPage " class="nav-link ">Home</a> 
+                </li>
+                <li class="nav-item  m-1">
+                    <a href="" class="nav-link ">About me</a> 
+                </li>
+                <li class="nav-item  m-1">
+                    <a href="" class="nav-link ">Projects</a> 
+                </li>
+                <li class="nav-item  m-1 w-100 ">
+                    <div class="w-100 text-center m-2" style="background-color: rgb(107,76 ,229 ); border-radius: 0.3rem;">
+                        <a href="" class="nav-link ">Hire me!</a> 
+                    </div>
+                    
+                </li>
+            </ul>
+        </div>
+    </div>
+    <nav class="navbar navbar-dark m-2  d-flex d-md-none">
+            <div class="container-fluid d-flex justify-content-end">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fa-solid fa-bars"></i></span>
+              </button>
+            </div>
+    </nav>
+
 <!-- Home section -->
+
+
+
     <section class="mainPage">
         <div class="nameContainer">
             <h1 class="title">SHADY SAFWAT</h1>
@@ -51,11 +96,11 @@
         <div class="projectsContaier">
 
             <div class="projectCard">
-                <h4>Todo</h4>
+                <h4 class="title">Todo</h4>
                 <!-- project icon and technologies used  -->
                 <div class="picAndTechContainer">
                     <div class="imgContainer">
-                        <img src="" class="projectImage"alt="">
+                        <img src="../assets/todo-icon.png" class="projectImage"alt="">
                     </div>
                     <div class="langContainer">
                         <h5>Technologies</h5>
@@ -65,71 +110,12 @@
     
                 <h4>Mobile Application</h4>
                 <div class="buttonsContainer"> 
-                    <button> View project</button>
-                    <button>Download App</button>
+                    <button class="projectBtn"> View project</button>
+                    <button class="downloadBtn">Download App</button>
                 </div>
                 <!--  -->
             </div>
-            <div class="projectCard">
-                <h4>Todo</h4>
-                <!-- project icon and technologies used  -->
-                <div class="picAndTechContainer">
-                    <div class="imgContainer">
-                        <img src="" class="projectImage"alt="">
-                    </div>
-                    <div class="langContainer">
-                        <h5>Technologies</h5>
-    
-                    </div>
-                </div>
-    
-                <h4>Mobile Application</h4>
-                <div class="buttonsContainer"> 
-                    <button> View project</button>
-                    <button>Download App</button>
-                </div>
-                <!--  -->
-            </div>
-            <div class="projectCard">
-                <h4>Todo</h4>
-                <!-- project icon and technologies used  -->
-                <div class="picAndTechContainer">
-                    <div class="imgContainer">
-                        <img src="" class="projectImage"alt="">
-                    </div>
-                    <div class="langContainer">
-                        <h5>Technologies</h5>
-    
-                    </div>
-                </div>
-    
-                <h4>Mobile Application</h4>
-                <div class="buttonsContainer"> 
-                    <button> View project</button>
-                    <button>Download App</button>
-                </div>
-                <!--  -->
-            </div>
-            <div class="projectCard">
-                <h4>Todo</h4>
-                <!-- project icon and technologies used  -->
-                <div class="picAndTechContainer">
-                    <div class="imgContainer">
-                        <img src="" class="projectImage"alt="">
-                    </div>
-                    <div class="langContainer">
-                        <h5>Technologies</h5>
-    
-                    </div>
-                </div>
-    
-                <h4>Mobile Application</h4>
-                <div class="buttonsContainer"> 
-                    <button> View project</button>
-                    <button>Download App</button>
-                </div>
-                <!--  -->
-            </div>
+            
         </div>
 
 
@@ -137,9 +123,7 @@
 <div class="scrollContainer">
     <div class="activeBall currentActiveBall"></div>
     <div class="activeBall"></div>
-    <div class="activeBall"></div>
-    <div class="activeBall"></div>
-    <div class="activeBall"></div>
+    
 </div>
 <!-- navigation buttons  -->
         <div class="navigationBtn">
